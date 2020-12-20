@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --primary-color: #FCD34D;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0px;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    width: 350px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+}
+
+.button{
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border:0px;
+    outline: none;
+
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 00.5rem;
+    border: 1px solid var(--primary-color);
+
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--dark-grey);
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.hero .hero-heading .hero-invert {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.section-non-button {
+
+    padding: 4rem 2rem;
+
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 00.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.space {
+    margin: 2rem 2.75rem 2rem 0rem;
+    font-size: 1.2rem;
+}
+
+.container-center .space-center {
+    margin: 2.5rem 6.85rem;
+}
+
+.space-top {
+    margin-top: 5rem;
+}
+
+.footer .icon {
+    max-width: 25px;
+    margin: auto;
+
+}
+
+.section .left-align {
+    text-align: left;
+}
+
+.container-center .blog-space-center {
+    margin: 1.5rem 0rem;
+
+}
+
+.button{
+    margin:0rem 38.5rem
+}
+
+.button-style{
+    background-color: var(--primary-color);
+}
+
+.top-margin{
+    padding:0rem 2rem 2rem 2rem
+}
+
+.section-box{
+    padding:2rem 2rem 0rem 2rem;
+}
+
+textarea{
+    width: 80%;
+    display: block;
+    height: 10vh;
+    padding:1rem;
+    margin: 1rem;
+    border: solid;
+}
