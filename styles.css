@@ -188,7 +188,8 @@ body {
 }
 
 textarea{
-    width: 80%;
+    width: 350px;
+    max-width: 100%;
     display: block;
     height: 10vh;
     padding:1rem;
